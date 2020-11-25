@@ -48,36 +48,22 @@ $bread = new Breadcrumb( " > ", $BREADCRUMB );
 	<title><?php echo $lang->getText($TITLE); ?></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="description" content="Minimikoti-projektin kotisivut, homepages of project Minimikoti" />
-	<meta name="keywords" content="minimikoti, minimum, home, architecture, TUT, TTY, Asuntomessut, arkkitehtuuri" /> 
-	
+	<meta name="keywords" content="minimikoti, minimum, home, architecture, TUT, TTY, Asuntomessut, arkkitehtuuri" />
+
 	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	
+
 	<link rel="stylesheet" href="css/structure.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/basic.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/header.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/footer.css" type="text/css" media="screen" />
-	
+
 	<?php echo "\n".$HEADER_INCLUDE."\n"; ?>
-	
+
 </head>
 <body>
 
 <div class="container">
-
-
-<?php
-	// account information will show when user is logged in
-	if( $user->isLogged() ) {
-		echo "<div class=\"account\">\n";
-		echo "minimikoti-projekti - ";
-		echo "<a href=\"manager.php\">". $user->getName() ."</a> - ";
-		echo "<a href=\"manager.php\">". $lang->getText("footer_manager") ."</a> - ";
-		echo "<a href=\"logout.exe.php\">". $lang->getText("footer_logout") ."</a>\n";
-		echo "</div>\n";
-	}
-?>
-
 
 <div id="message">
 <?php echo $lang->get($_GET['msg']); ?>
@@ -117,7 +103,7 @@ if( ENABLE_LOCALIZATION ) {
 		$link .= $key."=".$param."&amp;";
 	}
 	$link .= "lang=";
-	
+
 	// Change language
 	if( $lang->getLanguage() == "fi" ) {
 		echo "<a href=\"".$link."en\" xml:lang=\"en\">in english</a>\n";
