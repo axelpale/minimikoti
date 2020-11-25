@@ -66,7 +66,11 @@ $bread = new Breadcrumb( " > ", $BREADCRUMB );
 <div class="container">
 
 <div id="message">
-<?php echo $lang->get($_GET['msg']); ?>
+<?php
+  if (isset($_GET['msg'])) {
+    echo $lang->get($_GET['msg']);
+  }
+?>
 </div>
 
 <img id="bgimage" src="graphics/minimilogo_bg.png" alt="minimikoti" />
