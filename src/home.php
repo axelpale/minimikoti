@@ -114,42 +114,6 @@ require_once( "header-structure.php" );
 <div class="bottom"></div>
 </div> <!-- slideshow -->
 
-
-<div id="rating" title="<?php echo $lang->get("home_rating_title"); ?>">
-<h1><?php echo $lang->getText("home_rating"); ?></h1>
-
-<!-- http://reignwaterdesigns.com/ad/tidbits/rateme/ -->
-<div id="rateMe" title="Rate Me...">
-
-<?php
-	function buildStar( $counter, $title ) {
-		return $string = ""
-		. "<a href=\""
-		. "vote.exe.php?hid=".$_GET['hid']."&amp;pid=".$_GET['pid']."&amp;points=".$counter
-		. "\" "
-		. "id=\"_".$counter."\" title=\"".$title."\" "
-		. "onmouseover=\"rating(this)\" onmouseout=\"off(this)\">&nbsp;</a>\n";
-	}
-
-	// Build stars
-	for($i = 1; $i <= 5; $i++) {
-	   echo buildStar( $i, $lang->get("rating_".$i) );
-	}
-?>
-
-</div>
-
-<div id="votes">
-<?php echo sprintf($lang->getText("home_rating_count"),10); ?>
-</div>
-
-<script type="text/javascript">
-	setPreset(5);
-</script>
-
-
-</div> <!-- rating -->
-
 <div id="others">
 <h1><?php echo $lang->getText("home_other"); ?></h1>
 

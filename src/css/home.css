@@ -63,37 +63,8 @@ div.slideshow div.data div.picture div.showfull {
 	margin-top: 1.0em;
 }
 
-/* rating */
-#rating{
-	float:left;
-	width: 48%;
-}
-
-#rateStatus{float:left; clear:both; width:100%; height:20px;}
-#rateMe{float:left; clear:both; width:100%; height:auto; padding:0px; margin-bottom:0.5em;}
-#rateMe li{float:left;list-style:none;}
-#rateMe li a:hover,
-#rateMe a.on{
-	background:url(../graphics/star_on7.png) no-repeat;
-}
-#rateMe a{
-	float:left;
-	display: block;
-	text-decoration: none;
-	background:url(../graphics/star_off7.png) no-repeat;
-	height:54px; /*54 & 46*/
-	width:35px; /*30*/
-}
-#ratingSaved{display:none;}
-.saved{color:red; }
-#votes {
-	font-size: 0.8em;
-}
-
-
 /* other */
 #others {
-	float: right;
 	width: 48%;
 }
 
@@ -121,5 +92,3 @@ div.slideshow div.data div.picture div.showfull {
 #others div.addthis_toolbox {
 	margin-top: 1em;
 }
-
-
