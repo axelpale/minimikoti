@@ -1,6 +1,6 @@
 <?php
 
-define( FACEBOOK_LINK, "http://www.facebook.com/pages/minimikotifi/126344450717848" );
+define( "FACEBOOK_LINK", "http://www.facebook.com/pages/minimikotifi/126344450717848" );
 
 $textdata = array(
 
@@ -1000,5 +1000,3 @@ Tilasarjan keskellä mutkittelee monikäyttöinen porras, joka toimii asunnossa 
    )
 
 );
-
-?>

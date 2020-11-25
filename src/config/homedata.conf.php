@@ -1,7 +1,7 @@
 <?php
 
 // Default imagefile to use when picture is missing
-define( DEFAULT_SLIDE_PICTURE, "graphics/koti_puuttuu.png" );
+define( "DEFAULT_SLIDE_PICTURE", "graphics/koti_puuttuu.png" );
 
 class HomeStruct {
 	public $title; // string, couple of words
@@ -13,7 +13,7 @@ class HomeStruct {
 	public $pdfsrc; // string, filepath
 	public $picturedir; // string, path to picture directory. End by '/'
 	public $iconsrc; // string, path to frontpage homeicon
-	
+
 	public function __construct($title, $slogan, $designer, $face, $email, $facebook, $pdfsrc, $picturedir, $iconsrc ) {
 		$this->title = $title;
 		$this->slogan = $slogan;
@@ -27,7 +27,7 @@ class HomeStruct {
 	}
 }
 
-// Home 
+// Home
 $homedata = array ();
 
 array_push( $homedata,
@@ -127,7 +127,7 @@ class PicStr {
 	public $text; // string, max 50 words
 	public $resized; // string, filename of resized picture
 	public $original; // string, filename of original picture
-	
+
 	public function __construct( $title, $text, $resized, $original ) {
 		$this->title = $title;
 		$this->text = $text;
@@ -528,5 +528,3 @@ array_push ( $picturedata[7],
 		"06_Pohjapiirustus_med.png"
 	)
 );
-
-?>
