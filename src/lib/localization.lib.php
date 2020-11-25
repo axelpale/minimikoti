@@ -3,7 +3,7 @@
 // Akseli Palén 2010
 
 class Localization {
-	
+
 	// Language
 	private $language_;
 	private $datapack_;
@@ -13,7 +13,7 @@ class Localization {
 		$this->language_ = $language;
 		$this->datapack_ = &$datapack; // data is not copied
 	}
-	
+
 	// Alias to getText
 	public function get( $key ) {
 	   return $this->getText( $key );
@@ -21,12 +21,12 @@ class Localization {
 
 	// Get localized text. If text is not found, returns original key.
 	public function getText( $key ) {
-		if( is_null( $this->datapack_[$key][$this->language_] ) ) {
-			return $key;
+		if( isset( $this->datapack_[$key][$this->language_] ) ) {
+      return $this->datapack_[$key][$this->language_];
 		}
-		return $this->datapack_[$key][$this->language_];
+    return $key;
 	}
-	
+
 	// Current language code
 	public function getLanguage() {
 		return $this->language_;
