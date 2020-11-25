@@ -46,11 +46,6 @@ $textdata = array(
 	"en" => "Site"
 	),
 
-"bread_login" => array(
-	"fi" => "Kirjaudu",
-	"en" => "Log in"
-	),
-
 "bread_manager" => array(
 	"fi" => "Hallinta",
 	"en" => "Control panel"
@@ -122,11 +117,6 @@ $textdata = array(
 	"en" => "Minimikoti - Website"
 	),
 
-"login_title" => array(
-	"fi" => "Minimikoti - Kirjaudu",
-	"en" => "Minimikoti - Log in"
-	),
-
 "manager_title" => array(
 	"fi" => "Minimikoti - Hallinta",
 	"en" => "Minimikoti - Control Panel"
@@ -180,16 +170,6 @@ $textdata = array(
 	),
 
 // Footer
-
-"footer_login" => array(
-	"fi" => "Kirjaudu",
-	"en" => "Log in"
-	),
-
-"footer_logout" => array(
-	"fi" => "Kirjaudu ulos",
-	"en" => "Log out"
-	),
 
 "footer_manager" => array(
 	"fi" => "Hallinta",

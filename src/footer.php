@@ -45,21 +45,6 @@ if( ENABLE_LOCALIZATION ) {
 </div> <!-- column02" -->
 
 <div class="column03">
-<?php
-	if( $user->isLogged() ) {
-		echo "<a href=\"logout.exe.php\">";
-		echo $lang->getText("footer_logout");
-		echo "</a>\n";
-
-		echo "<a href=\"manager.php\">";
-		echo $lang->getText("footer_manager");
-		echo "</a>\n";
-	} else {
-		echo "<a href=\"login.php\">";
-		echo $lang->getText("footer_login");
-		echo "</a>\n";
-	}
-?>
 <a href="terms.php"><?php echo $lang->get("bread_terms"); ?></a>
 <a href="site.php"><?php echo $lang->get("bread_site"); ?></a>
 <br />
