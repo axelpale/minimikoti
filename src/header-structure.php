@@ -4,18 +4,18 @@
 
 
 // Parameter: $TITLE
-if( is_null( $TITLE ) ) {
+if( !isset( $TITLE ) ) {
 	$TITLE = "default_title";
 }
 
 // Parameter: $MENU_HIGHLIGHT
 // Number of menu element to highlight (class = current)
-if( is_null( $MENU_HIGHLIGHT ) ) {
+if( !isset( $MENU_HIGHLIGHT ) ) {
 	$MENU_HIGHLIGHT = 0;
 }
 
 // Parameter: $BREADCRUMB
-if( is_null( $BREADCRUMB ) ) {
+if( !isset( $BREADCRUMB ) ) {
 	$BREADCRUMB = array(
 		"bread_title" => "homes.php"
 	);
@@ -23,7 +23,7 @@ if( is_null( $BREADCRUMB ) ) {
 
 // Parameter: $HEADER_INCLUDE
 // If the page needs something extra in <head>-part
-if( is_null( $HEADER_INCLUDE ) ) {
+if( !isset( $HEADER_INCLUDE ) ) {
 	$HEADER_INCLUDE = "";
 }
 
