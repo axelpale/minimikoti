@@ -1,0 +1,31 @@
+body {
+}
+
+/*div.bgcontainer {
+	margin: 0px auto 0px auto;
+	width: 800px;
+	
+	background-image:url('../graphics/minimilogo_bg.png');
+	background-repeat:no-repeat;
+	background-position: right top;
+}*/
+
+div.container {
+	margin: 0px auto 0px auto;
+	width: 768px;
+	font-family: sans-serif;
+	color: #4d4d4d;
+}
+
+img#bgimage {
+	float:right;
+	margin: 0px -80px -529px -208px; /*size: 288x529 */
+	position: relative;
+	z-index: -1;
+}
+
+div.local {
+	margin: 0em auto 0em auto;
+	padding: 1em 0em 1em 0em;
+	width: 75%;
+}

@@ -1,0 +1,49 @@
+html, body {
+	background-color: #99f600;
+	height: 95%;
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+.container {
+	display: block;
+	position: relative;
+	height: 100%;
+	margin: 2px;
+}
+
+.banner {
+	display: block;
+	position: absolute;
+	top: 50%;
+	height: 300px;
+	width: 100%;
+	margin-top: -150px;
+	text-align: center;
+}
+
+.container img {	
+	border-width: 0px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0.4em;
+	width: 100%;
+	text-align: right;
+	
+	background-image:url('../graphics/intro_shade.jpg');
+	background-repeat:repeat-y;
+	background-position: right top;
+}
+
+.footer a {
+	margin: 0.4em 0.7em 0.4em 0em;
+	font-size: 1em;
+	font-weight: bold;
+}
+.footer a:link {color:#fff;text-decoration:none}
+.footer a:visited {color:#fff;text-decoration:none}
+.footer a:hover {color:#333;text-decoration:underline}
+.footer a:active {}

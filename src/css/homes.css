@@ -1,0 +1,63 @@
+div.homeicons div.row {
+	text-align: center;
+}
+
+div.homeicons a {
+	text-decoration: none;
+	font-size: 0.7em;
+	text-transform: uppercase;
+}
+
+div.homeicons div.item {
+	float: left;
+	width: 132px;
+	height: 164px;
+	margin: 0px;
+}
+
+div.homeicons div.item.left {
+	text-align: left;
+}
+
+div.homeicons div.item.leftcenter {
+	text-align: left;
+	margin: 0px 7px 0px 14px;
+}
+
+div.homeicons div.item.rightcenter {
+	text-align: left;
+	margin: 0px 14px 0px 7px;
+}
+
+div.homeicons div.item.right {
+	text-align: left;
+}
+
+div.homeicons div#slogan {
+	font-weight: bold;
+	text-align: center;
+	height: 1.0em;
+	margin-bottom: -0.5em;
+	clear:both;
+	text-transform: lowercase;
+}
+
+div.homeicons div#slogan #slogantext{
+	color: #EB0073;
+}
+
+div.homeicons div.onslogan {
+	/*background-color: #EEE;*/
+}
+
+div.homeicons a:hover img {
+   opacity: 0.6; /* CSS 3 */
+}
+
+div.homeicons img {
+	display: block;
+	width: 132px;
+	height: 132px;
+	border: 0px;
+	margin-bottom: 0.15em;
+}

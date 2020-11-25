@@ -1,0 +1,37 @@
+div.column {
+	float:left;
+	width: 49%;
+}
+
+div.designer {
+	clear: both;
+	margin-bottom: 1em;
+}
+
+div.designer img {
+	width: 96px;
+	height: 96px;
+	float: left;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+}
+
+div.designer .name {
+	font-size: 1.2em;
+}
+
+div.designer .home a {
+	text-decoration: none;
+}
+
+div.designer .emailtitle {
+	color: #666;
+	font-size: 0.7em;
+	margin-top: 1em;
+}
+
+div.designer .email {
+	color: #666;
+	font-size: 0.7em;
+	font-style: italic;
+}

@@ -1,0 +1,47 @@
+body { font-size: 100% }
+
+a {
+	color: #666;
+	text-decoration: underline;
+}
+a:link {}
+a:visited {}
+a:hover {color:#99fe00;}
+a:active {}
+
+h1 {
+	color: #669900;
+	font-weight: normal;
+	font-size: 1.35em;
+	border-bottom: 2px dotted #666;
+	margin-top: 1em;
+}
+
+h2 {
+	color: #666;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-top: 1em;
+}
+
+p {
+	color: #4d4d4d;
+	font-size: 0.9em;
+	text-align: justify;
+}
+
+div.bottom {
+	clear: both;
+	height: 0px;
+}
+
+.b {font-weight:bold;}
+
+div.emailtip p {
+   font-size: 0.8em;
+   margin-top: 2em;
+}
+
+div.emailtip p span {
+   color: #EB0073;
+}
