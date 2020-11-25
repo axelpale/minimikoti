@@ -4,7 +4,7 @@ Minimikoti website presents multiple minimal housing solutions developed by stud
 
 ## Installation
 
-Rename config-sample/ directory to config/ and modify the config files to your liking.
+Install into a PHP environment.
 
 ## Licence
 

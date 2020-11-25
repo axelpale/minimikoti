@@ -4,14 +4,6 @@
 // Start session
 session_start();
 
-// Security settings
-require_once( "config/security.conf.php" );
-
-// Parameter: $SECURITY_LEVEL
-if( is_null( $SECURITY_LEVEL ) ) {
-	$SECURITY_LEVEL = DEFAULT_PAGE_LEVEL;
-}
-
 // Localization
 require_once( "config/localization.conf.php" ); // Load localization settings
 require_once( "lib/localization.lib.php" );

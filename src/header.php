@@ -5,9 +5,7 @@
 // without including header.php. Those pages have included the files separately
 // so modifications made here won't affect those pages.
 
-// Session and database initialization
-// Parameters:
-//  $SECURITY_LEVEL
+// Localization initialization
 require_once( "header-init.php" );
 
 // HTML header

@@ -104,24 +104,5 @@ function echoHome( $id ) {
 
 
 <?php
-if( DEFAULT_COMMENT_VIEW_LEVEL <= $user->getSecurityLevel() ) {
-
-	// Length of thread
-	$thread_length = 0;
-
-	echo "<h1>".sprintf($lang->get("thread_title2"),$thread_length)."</h1>\n";
-
-	// Echo thread
-	echo "<div id=\"comments\" class=\"thread\">\n";
-
-  // Get thread
-	echo "<span class='note common'>".$lang->getText("thread_empty")."</span>\n";
-
-	echo "</div> <!-- thread -->\n";
-
-} // end of if userlevel check
-?>
-
-<?php
 require_once( "footer.php" );
 ?>
