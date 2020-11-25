@@ -4,33 +4,12 @@
 // Start session
 session_start();
 
-// Database connection
-require_once( "lib/connect.lib.php" );
-$CONR = mysql_reader_connect();
-
 // Security settings
 require_once( "config/security.conf.php" );
-
-
 
 // Parameter: $SECURITY_LEVEL
 if( is_null( $SECURITY_LEVEL ) ) {
 	$SECURITY_LEVEL = DEFAULT_PAGE_LEVEL;
-}
-
-
-
-// User authentication
-require_once( "lib/usersession.lib.php" );
-$user = new UserSession( $CONR );
-if( $SECURITY_LEVEL > $user->getSecurityLevel() ) {
-	// If user is not authorized, he will be thrown to a login page
-	if( DEFAULT_PAGE_LEVEL > $user->getSecurityLevel()) {
-		header( 'Location: '.UNAUTHORIZED_FORWARD_2.'?msg=No%20permission' );
-	} else {
-		header( 'Location: '.UNAUTHORIZED_FORWARD.'?msg=No%20permission' );
-	}
-	die();
 }
 
 // Localization

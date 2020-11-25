@@ -50,7 +50,7 @@ if( ENABLE_LOCALIZATION ) {
 		echo "<a href=\"logout.exe.php\">";
 		echo $lang->getText("footer_logout");
 		echo "</a>\n";
-		
+
 		echo "<a href=\"manager.php\">";
 		echo $lang->getText("footer_manager");
 		echo "</a>\n";
@@ -102,10 +102,3 @@ pageTracker._trackPageview();
 
 </body>
 </html>
-
-
-<?php
-
-// Close database-connection
-mysql_close( $CONR );
-?>

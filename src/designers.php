@@ -22,14 +22,14 @@ require_once( "config/homedata.conf.php" );
 // Get designers from homes, order by family name
 $home = array();
 array_push( $home,
-	new Home(4, false, $lang),
-	new Home(6, false, $lang),
-	new Home(1, false, $lang),
-	new Home(2, false, $lang),
-	new Home(5, false, $lang),
-	new Home(3, false, $lang),
-	new Home(7, false, $lang),
-	new Home(0, false, $lang)
+	new Home(4, $lang),
+	new Home(6, $lang),
+	new Home(1, $lang),
+	new Home(2, $lang),
+	new Home(5, $lang),
+	new Home(3, $lang),
+	new Home(7, $lang),
+	new Home(0, $lang)
 );
 
 echo "<h1>".$lang->get("designers_h1")."</h1>\n";

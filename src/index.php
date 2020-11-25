@@ -84,8 +84,3 @@ pageTracker._trackPageview();
 
 </body>
 </html>
-
-<?php
-	// Close database-connection
-	mysql_close( $CONR );
-?>

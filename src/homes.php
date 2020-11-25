@@ -25,14 +25,14 @@ require_once( "config/homedata.conf.php" );
 // Get homes
 $home = array();
 array_push( $home,
-	new Home(0, false, $lang),
-	new Home(1, false, $lang),
-	new Home(2, false, $lang),
-	new Home(3, false, $lang),
-	new Home(4, false, $lang),
-	new Home(5, false, $lang),
-	new Home(6, false, $lang),
-	new Home(7, false, $lang)
+	new Home(0, $lang),
+	new Home(1, $lang),
+	new Home(2, $lang),
+	new Home(3, $lang),
+	new Home(4, $lang),
+	new Home(5, $lang),
+	new Home(6, $lang),
+	new Home(7, $lang)
 );
 
 // how-to: $home[0]->getSlogan();
@@ -105,67 +105,18 @@ function echoHome( $id ) {
 
 <?php
 if( DEFAULT_COMMENT_VIEW_LEVEL <= $user->getSecurityLevel() ) {
-	// COMMENTING
-	$ENABLE_COMMENTING = false;
-	
-	// Thread handling
-	require_once( "lib/thread.lib.php" );
-	
-	// Get a thread
-	$thread = getThread($CONR, -1, 3, true);
-	
+
 	// Length of thread
 	$thread_length = 0;
-	if( $thread != false ) {
-	   $thread_length = count($thread);
-	}
-	
+
 	echo "<h1>".sprintf($lang->get("thread_title2"),$thread_length)."</h1>\n";
 
 	// Echo thread
 	echo "<div id=\"comments\" class=\"thread\">\n";
 
-   // Get thread
-	if( $thread === false ) {
-		echo "<span class='note common'>".$lang->getText("thread_empty")."</span>\n";
-	} else {
-		foreach( $thread as $row ) {
-			// Parse time, same format is used in suomi24.fi
-			$time = gmdate("j.n.Y H:i", strtotime($row['time'] . " GMT"));
-			
-			$threadhome = new Home( $row['thread'], false, $lang );
+  // Get thread
+	echo "<span class='note common'>".$lang->getText("thread_empty")."</span>\n";
 
-			echo "<div class=\"post\">\n";
-			echo "<div class=\"header\">\n";
-			echo "<span class=\"topic\">".$row['topic']."</span> "
-			. $lang->get("thread_comments_home")
-			. " <span class=\"topic\">"
-			. "<a href=\"home.php?hid=".$row['thread']."\">"
-			. $threadhome->getTitle()
-			. "</a></span>\n";
-			echo "<div class=\"right\">"
-			. $time
-			. "</div>\n";
-			echo "</div>\n";
-			
-			// comment administration
-			if( DEFAULT_COMMENT_ADMIN_LEVEL <= $user->getSecurityLevel() ) {
-			   echo "<div class=\"admin\">\n";
-			   $pagecode = "hid=".$_GET['hid']."&pid=".$_GET['pid']."&postid=".$row['id'];
-			   //$link_to_enable = "threadadmin.exe.php?type=ena&".$pagecode;
-			   //$link_to_disable = "threadadmin.exe.php?type=dis&".$pagecode;
-			   $link_to_delete = "threadadmin.exe.php?type=del&".$pagecode;
-			   echo "<a href=\"".$link_to_delete."\">poista viesti</a>\n";
-			   echo "</div>\n";
-			}
-			
-			echo "<div class=\"body\">\n";
-			echo stripcslashes( nl2br( $row['data'] ) );
-			echo "</div>\n";
-			echo "</div> <!-- post -->\n";
-		}
-	}
-	
 	echo "</div> <!-- thread -->\n";
 
 } // end of if userlevel check
