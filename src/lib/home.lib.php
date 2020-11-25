@@ -4,7 +4,6 @@
 
 // Include home data
 require_once( "config/homedata.conf.php" );
-require_once( "lib/vote.lib.php" );
 
 // Include language data
 require_once( "lib/localization.lib.php" );
@@ -17,13 +16,8 @@ class Home {
 	// Parameters:
 	//   id: id-number of home
 	public function __construct( $id, &$language ) {
-
 		$this->id_ = $id;
-
 		$this->lang_ = &$language;
-
-		// Load rating
-		$this->rating_ = 5;
 	}
 
 	public function getId() {
@@ -96,11 +90,6 @@ class Home {
 		return count( $picturedata[ $this->id_ ] );
 	}
 
-	// Returns star count
-	public function getRating() {
-	   return 5;
-	}
-
 	public function getFacebookUrl() {
 		global $homedata;
 		return $homedata[ $this->id_ ]->facebook;
@@ -125,7 +114,6 @@ class Home {
 // private:
 
 	private $id_;
-	private $rating_;
 	private $lang_;
 
 }

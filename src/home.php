@@ -139,15 +139,6 @@ require_once( "header-structure.php" );
 
 </div>
 
-<?php
-//<!-- div id="rateStatus">
-//</div -->
-
-//<!--div>
-//Rate <?php //echo round($HOME->getRating(true),2); >
-//</div-->
-?>
-
 <div id="votes">
 <?php echo sprintf($lang->getText("home_rating_count"),10); ?>
 </div>
