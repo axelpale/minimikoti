@@ -8,10 +8,10 @@ session_start();
 require_once( "config/localization.conf.php" ); // Load localization settings
 require_once( "lib/localization.lib.php" );
 require_once( "config/textdata.php" );
-if( is_null( $_SESSION["lang"] ) || !ENABLE_LOCALIZATION ) {
+if( !isset( $_SESSION["lang"] ) || !ENABLE_LOCALIZATION ) {
 	$_SESSION["lang"] = "fi"; // Set default, even if localization is off
 }
-if( !is_null( $_GET["lang"] ) && ENABLE_LOCALIZATION ) {
+if( isset( $_GET["lang"] ) && ENABLE_LOCALIZATION ) {
 	if( $_GET["lang"] == "fi" ) $_SESSION["lang"] = "fi";
 	if( $_GET["lang"] == "en" ) $_SESSION["lang"] = "en";
 }
