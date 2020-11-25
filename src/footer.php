@@ -75,30 +75,7 @@ if( ENABLE_LOCALIZATION ) {
 
 </div> <!-- footer -->
 
-<?php
-	// account information will show when user is logged in
-	if( $user->isLogged() ) {
-		echo "<div class=\"account\">\n";
-		echo "minimikoti-projekti - ";
-		echo "<a href=\"manager.php\">". $user->getName() ."</a> - ";
-		echo "<a href=\"manager.php\">". $lang->getText("footer_manager") ."</a> - ";
-		echo "<a href=\"logout.exe.php\">". $lang->getText("footer_logout") ."</a>\n";
-		echo "</div>\n";
-	}
-?>
-
 </div> <!-- container -->
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try{
-var pageTracker = _gat._getTracker("UA-16344244-1");
-pageTracker._trackPageview();
-} catch(err) {}
-</script>
 
 </body>
 </html>
