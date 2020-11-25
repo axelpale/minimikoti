@@ -5,13 +5,13 @@
 
 // Parameter: $_GET['hid']
 // Home ID-number
-if( is_null( $_GET['hid'] ) ) {
+if( !isset( $_GET['hid'] ) ) {
 	$_GET['hid'] = 1;
 }
 
 // Parameter: $_GET['pid']
 // Picture (slide) ID-number
-if( is_null( $_GET['pid'] ) ) {
+if( !isset( $_GET['pid'] ) ) {
 	$_GET['pid'] = 1;
 }
 
