@@ -292,7 +292,6 @@ $textdata = array(
 <li><a href=\"#tausta\">Minimikodin tausta</a></li>
 <li><a href=\"#hanke\">TTY:n arkkitehtuurin laitoksen ja Suomen Asuntomessujen yhteishanke</a></li>
 <li><a href=\"#asuntomessut\">Minimikodit esillä kesän 2010 Asuntomessuilla Kuopiossa</a></li>
-<li><a href=\"#facebook\">Minimikoti Facebookissa</a></li>
 </ul>
 
 <h2 id=\"tausta\">Minimikodin tausta</h2>
@@ -331,9 +330,6 @@ $textdata = array(
 
 <p><span class=\"b\">Kaikki minimikoti-suunnitelmat</span> ovat esillä kesän 2010 Asuntomessuilla Kuopiossa 16.7-15.8. Suunnitelmat
 löytyvät Rakentaja-hallista.</p>
-
-<h2 id=\"facebook\">Minimikoti Facebookissa</h2>
-<p><span class=\"b\">Toukokuusta lähtien</span> Minimikodilla on omat sivut myös <a href=\"".FACEBOOK_LINK."\">Facebookissa</a>.</p>
 
 <div class=\"collage\" >
 <img src=\"files/project/pienoismallikollaasi.jpg\" alt=\"pienoismalleja luonnosteluvaiheesta\" title=\"pienoismalleja luonnosteluvaiheesta\" />
@@ -385,9 +381,6 @@ löytyvät Rakentaja-hallista.</p>
 
 <p><span class=\"b\">All minimum home projects</span> will be on display at the Housing Fair in Kuopio 16.7-15.8.2010.</p>
 
-<h2 id=\"facebook\">Minimikoti in Facebook</h2>
-<p><span class=\"b\">Since May 2010</span> Minimikoti can also be found in <a href=\"".FACEBOOK_LINK."\">Facebook</a>.</p>
-
 <div class=\"collage\" >
 <img src=\"files/project/pienoismallikollaasi.jpg\" alt=\"scale models from sketching phase\" title=\"scale models from sketching phase\" />
 <div class=\"caption\" >Picture: scale models from sketching phase</div>
@@ -427,36 +420,28 @@ löytyvät Rakentaja-hallista.</p>
    "fi" => "
 <p>
 Professori Markku Hedman, TTY<br />
-p. +358 40 702 4884<br />
-etunimi.sukunimi@tut.fi
+<a href=\"https://fi.linkedin.com/in/markku-hedman-272551b\" target=\"_blank\">LinkedIn</a>
 </p>
 <p>
 Projektijohtaja Pasi Hulkkonen, Suomen Asuntomessut<br />
-p. +358 40 840 0513<br />
-etunimi.sukunimi@asuntomessut.fi<br />
+<a href=\"https://fi.linkedin.com/in/pasi-hulkkonen\" target=\"_blank\">LinkedIn</a><br />
 <a href=\"http://www.asuntomessut.fi/\" target=\"_blank\">www.asuntomessut.fi</a>
 </p>
 <p>
-<a href=\"http://www.tut.fi/index.cfm?mainsel=17225&amp;sel=17225&amp;Show=29137&amp;siteid=178\" target=\"_blank\">Tampereen teknillisen yliopiston arkkitehtuurin laitos</a><br />
-<a href=\"http://www.tut.fi/index.cfm?MainSel=18019&amp;Sel=18019&amp;Show=30082&amp;siteid=178\" target=\"_blank\">Arkkitehtuurin laitoksen yhteystiedot</a><br />
-<a href=\"".FACEBOOK_LINK."\" target=\"_blank\">Minimikoti Facebookissa</a>
+<a href=\"https://tutcris.tut.fi/portal/fi/organisations/school-of-architecture(d56a50f8-bb6a-49b6-908b-b6c58ae0ab7d).html\" target=\"_blank\">Tampereen teknillisen yliopiston arkkitehtuurin laitos</a>
 </p>",
    "en" => "
 <p>
 Professor Markku Hedman, TUT<br />
-p. +358 40 702 4884<br />
-first.last@tut.fi
+<a href=\"https://fi.linkedin.com/in/markku-hedman-272551b\" target=\"_blank\">LinkedIn</a>
 </p>
 <p>
 Project manager Pasi Hulkkonen, Suomen Asuntomessut (Finnish Housing Fair)<br />
-p. +358 40 840 0513<br />
-first.last@asuntomessut.fi<br />
+<a href=\"https://fi.linkedin.com/in/pasi-hulkkonen\" target=\"_blank\">LinkedIn</a><br />
 <a href=\"http://www.asuntomessut.fi/\" target=\"_blank\">www.asuntomessut.fi</a>
 </p>
 <p>
-<a href=\"http://www.tut.fi/index.cfm?mainsel=17225&amp;sel=17225&amp;Show=29137&amp;siteid=178\" target=\"_blank\">Tampere University of Technology: School of Architecture</a><br />
-<a href=\"http://www.tut.fi/index.cfm?MainSel=18019&amp;Sel=18019&amp;Show=30082&amp;siteid=178\" target=\"_blank\">Contacts of School of Architecture</a><br />
-<a href=\"".FACEBOOK_LINK."\" target=\"_blank\">Minimikoti in Facebook</a>
+<a href=\"https://tutcris.tut.fi/portal/fi/organisations/school-of-architecture(d56a50f8-bb6a-49b6-908b-b6c58ae0ab7d).html\" target=\"_blank\">Tampere University of Technology: School of Architecture</a>
 </p>"
    ),
 
