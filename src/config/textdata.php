@@ -457,7 +457,7 @@ Project manager Pasi Hulkkonen, Suomen Asuntomessut (Finnish Housing Fair)<br />
 
 <h2 id=\"designers\">Suunnittelijat</h2>
 
-<p><span class=\"b\">Sivuston pääsuunnittelijana</span> ja toteuttajana on toiminut <span class=\"b\">Akseli Palén</span>. Akseli on saanut suunnittelutyöhön runsaasti apua kotien suunnitelijoista ja opettajista kootulta suunnitteluryhmältä, johon kuuluivat seuravat henkilöt: <span class=\"b\">Jare Virtanen</span>, <span class=\"b\">Jani Järvinen</span>, <span class=\"b\">Anna Helamaa</span>, <span class=\"b\">Sini Kotilainen</span> ja <span class=\"b\">Rosa Paukio</span>. Kiitokset myös Suomen Asuntomessujen <span class=\"b\">Timo Hautakoskelle</span>, professori <span class=\"b\">Markku Hedmanille</span> ja erityisesti kaikille minimikotien suunnittelijoille.</p>
+<p><span class=\"b\">Sivuston pääsuunnittelijana</span> ja toteuttajana on toiminut <a href=\"https://www.akselipalen.com\" target=\"_blank\">Akseli Palén</a>. Akseli on saanut suunnittelutyöhön runsaasti apua kotien suunnitelijoista ja opettajista kootulta suunnitteluryhmältä, johon kuuluivat seuravat henkilöt: <span class=\"b\">Jare Virtanen</span>, <span class=\"b\">Jani Järvinen</span>, <span class=\"b\">Anna Helamaa</span>, <span class=\"b\">Sini Kotilainen</span> ja <span class=\"b\">Rosa Paukio</span>. Kiitokset myös Suomen Asuntomessujen <span class=\"b\">Timo Hautakoskelle</span>, professori <span class=\"b\">Markku Hedmanille</span> ja erityisesti kaikille minimikotien suunnittelijoille.</p>
 
 <h2 id=\"tools\">Apuvälineitä ja työkaluja</h2>
 
@@ -481,7 +481,7 @@ Project manager Pasi Hulkkonen, Suomen Asuntomessut (Finnish Housing Fair)<br />
 
 <h2 id=\"designers\">Designers</h2>
 
-<p><span class=\"b\">Akseli Palén has</span> worked as the main designer and coder for the website. Akseli has received lots of help in design from a designing team, including <span class=\"b\">Jare Virtanen</span>, <span class=\"b\">Jani Järvinen</span>, <span class=\"b\">Anna Helamaa</span>, <span class=\"b\">Sini Kotilainen</span> and <span class=\"b\">Rosa Paukio</span>. Akseli wants to thank also <span class=\"b\">Timo Hautakoski</span> from the Finnish Housing Fair, professor <span class=\"b\">Markku Hedman</span> from TUT and especially all home designers.</p>
+<p><a href=\"https://www.akselipalen.com\" target=\"_blank\">Akseli Palén</a> has worked as the main designer and coder for the website. Akseli has received lots of help in design from a designing team, including <span class=\"b\">Jare Virtanen</span>, <span class=\"b\">Jani Järvinen</span>, <span class=\"b\">Anna Helamaa</span>, <span class=\"b\">Sini Kotilainen</span> and <span class=\"b\">Rosa Paukio</span>. Akseli wants to thank also <span class=\"b\">Timo Hautakoski</span> from the Finnish Housing Fair, professor <span class=\"b\">Markku Hedman</span> from TUT and especially all home designers.</p>
 
 <h2 id=\"tools\">Utilities and Tools</h2>
 
@@ -510,7 +510,7 @@ Project manager Pasi Hulkkonen, Suomen Asuntomessut (Finnish Housing Fair)<br />
 	"fi" => "
 <h2>Kuvamateriaali</h2>
 
-<p><span class=\"b\">Sivuston käyttöliittymän grafiikkaan</span> tekijänoikeudet ovat Akseli Palénilla. Tästä poikkeuksena Minimikoti-logo, joka on Jare Virtasen tuotos, ja sivuston yläosassa näkyvä Minimikoti-teksti, jonka kirjoittaja on Anu Nukarinen.</p>
+<p><span class=\"b\">Sivuston käyttöliittymän grafiikkaan</span> tekijänoikeudet ovat <a href=\"https://www.akselipalen.com\" target=\"_blank\">Akseli Palénilla</a>. Tästä poikkeuksena Minimikoti-logo, joka on Jare Virtasen tuotos, ja sivuston yläosassa näkyvä Minimikoti-teksti, jonka kirjoittaja on Anu Nukarinen.</p>
 
 <p><span class=\"b\">Sivustolla esiteltävä materiaali</span> on pääosin opiskelijoiden tuottamaa. Tässä tekijänoikeus pysyy materiaalin tuottajalla. Materiaaliksi lasketaan kaikki koteja esittelevät kuvat ja tekstit.</p>
 
@@ -518,18 +518,18 @@ Project manager Pasi Hulkkonen, Suomen Asuntomessut (Finnish Housing Fair)<br />
 
 <h2>Lähdekoodi</h2>
 
-<p><span class=\"b\">Lähdekoodin tekijänoikeudet</span> ovat ensisijaisesti toteuttajalla Akseli Palénilla. Sivustolla käytettyyn kolmannen osapuolen lähdekoodiin tekijänoikeuksia on sovellettava tapauskohtaisesti. Kolmannen osapuolen lähdekoodiin on liitetty maininta alkuperäisestä lähteestä.</p>
+<p><span class=\"b\">Lähdekoodin tekijänoikeudet</span> ovat ensisijaisesti toteuttajalla <a href=\"https://www.akselipalen.com\" target=\"_blank\">Akseli Palénilla</a>. Sivustolla käytettyyn kolmannen osapuolen lähdekoodiin tekijänoikeuksia on sovellettava tapauskohtaisesti. Kolmannen osapuolen lähdekoodiin on liitetty maininta alkuperäisestä lähteestä.</p>
 ",
 	"en" => "
 <h2>Pictures</h2>
 
-<p><span class=\"b\">Copyrights of layout graphics</span> of the website are owned by Akseli Palén. As an exception to this, logo is designed by Jare Virtanen, and handwritten text \"minimikoti\" at the top of menubar is created by Anu Nukarinen.</p>
+<p><span class=\"b\">Copyrights of layout graphics</span> of the website are owned by <a href=\"https://www.akselipalen.com\" target=\"_blank\">Akseli Palén</a>. As an exception to this, logo is designed by Jare Virtanen, and handwritten text \"minimikoti\" at the top of menubar is created by Anu Nukarinen.</p>
 
 <p><span class=\"b\">Presented material</span> is primarily created by students/designers, whom therefore owns the copyrights to the material. Here, all pictures and text about homes are considered as material. Also all other pictures and text of website are under copyrights, even when original author is not mentioned.</p>
 
 <h2>Source Code</h2>
 
-<p><span class=\"b\">Copyrights of source code</span> are owned primarily by Akseli Palén. Copyrights of third party source code should be applied case-by-case. Where third party code is used, there are comments about original source.</p>
+<p><span class=\"b\">Copyrights of source code</span> are owned primarily by <a href=\"https://www.akselipalen.com\" target=\"_blank\">Akseli Palén</a>. Copyrights of third party source code should be applied case-by-case. Where third party code is used, there are comments about original source.</p>
 "
 	),
 
