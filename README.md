@@ -4,6 +4,8 @@
 
 Minimikoti website presents multiple minimal housing solutions developed by students at Tampere University of Technology in co-operation with [Finnish Housing Fair](https://www.asuntomessut.fi/).
 
+For more, see a my [blog post about Minimikoti](https://www.akselipalen.com/2010/04/28/website-for-minimikoti-project-in-co-operation-with-finnish-housing-fair/).
+
 ## Installation
 
 Install into a PHP7 environment. No database is needed.
