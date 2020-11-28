@@ -43,11 +43,6 @@ function echoDesigner( $item ) {
 	echo "<div class=\"home\">"
 	. "<a href=\"home.php?hid=".$item->getId()."\">".$item->getTitle()."</a>"
 	. "</div>\n";
-	if( $item->isEmailEnabled() ) {
-		global $lang;
-		echo "<div class=\"emailtitle\">".$lang->getText("designers_email")."</div>\n";
-		echo "<div class=\"email\">".$item->getEmail()."</div>\n";
-	}
 	echo "</div>\n";
 }
 
@@ -69,11 +64,6 @@ echo "</div> <!-- column -->\n";
 
 echo "<div class=\"bottom\"></div>\n";
 
-echo "</div>\n";
-
-// Email help
-echo "<div class=\"emailtip\">\n";
-echo $lang->getText("designers_emailtip");
 echo "</div>\n";
 
 ?>

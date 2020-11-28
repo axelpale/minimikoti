@@ -15,10 +15,5 @@ echo "<h1>".$lang->get("contact_h1")."</h1>\n";
 
 echo $lang->get("contact_text");
 
-// Email help
-echo "<div class=\"emailtip\">\n";
-echo $lang->getText("designers_emailtip");
-echo "</div>\n";
-
 require_once( "footer.php" );
 ?>
