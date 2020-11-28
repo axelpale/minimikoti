@@ -6,7 +6,7 @@ Minimikoti website presents multiple minimal housing solutions developed by stud
 
 ## Installation
 
-Install into a PHP environment.
+Install into a PHP7 environment. No database is needed.
 
 ## Licence
 
