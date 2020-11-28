@@ -202,13 +202,11 @@ $textdata = array(
 	"fi" => "
 <p><span class=\"b\">Minimikoti on</span> Tampereen teknillisen yliopiston arkkitehtuurin laitoksen ja Osuuskunta Suomen Asuntomessujen yhteinen projekti, jossa tavoitteena on ollut asumisen uusien muotojen ja asuntosuunnittelun rajojen tutkiminen.</p>
 <p><span class=\"b\">Tällä sivustolla</span> esiteltävät minimikoti-suunnitelmat ovat TTY:n arkkitehtiopiskelijoiden asuntosuunnittelun jatkokurssille laatimia harjoitustöitä. Minimikoti-kurssi järjestettiin lukuvuonna 2009-2010 ja sille osallistui 8 opiskelijaa.</p>
-<p><span class=\"b\">Kaikki minimikoti-suunnitelmat</span> ovat esillä kesän 2010 Asuntomessuilla Kuopiossa 16.7-15.8. Suunnitelmat löytyvät Rakentaja-hallista.</p>
-<p><span class=\"b\">Minimikoti löytyy nyt</span> myös <a href=\"".FACEBOOK_LINK."\">Facebookista</a>.</p>",
+<p><span class=\"b\">Kaikki minimikoti-suunnitelmat</span> ovat esillä kesän 2010 Asuntomessuilla Kuopiossa 16.7-15.8. Suunnitelmat löytyvät Rakentaja-hallista.</p>",
 	"en" => "
 <p><span class=\"b\">Mimimikoti (Minimum home) is</span> a common project of Tampere University of Technology School of Architecture and the Finnish Housing Fair. The objective is to study new forms of housing.</p>
 <p><span class=\"b\">The projects presented in this site</span> are made by students of architecture in the advanced course in housing design that was organized in winter 2009-2010. Eight students participated with an individual design project.</p>
-<p><span class=\"b\">All minimum home projects</span> will be on display at the Housing Fair in Kuopio 16.7-15.8.2010.</p>
-<p><span class=\"b\">Now you can also find</span> Minimikoti in <a href=\"".FACEBOOK_LINK."\">Facebook</a>.</p>",
+<p><span class=\"b\">All minimum home projects</span> will be on display at the Housing Fair in Kuopio 16.7-15.8.2010.</p>",
 	),
 
 // home.php
