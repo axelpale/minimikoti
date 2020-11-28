@@ -48,10 +48,9 @@ if( ENABLE_LOCALIZATION ) {
 <a href="terms.php"><?php echo $lang->get("bread_terms"); ?></a>
 <a href="site.php"><?php echo $lang->get("bread_site"); ?></a>
 <br />
-<a href="http://www.asuntomessut.fi/" target="_blank">Suomen Asuntomessut</a>
-<a href="http://www.tut.fi/public/" target="_blank"><?php echo $lang->get("footer_tut"); ?></a>
-<a href="http://www.tut.fi/index.cfm?siteid=178" target="_blank"><?php echo $lang->get("footer_archi"); ?></a>
-<?php echo "<a href=\"".FACEBOOK_LINK."\" target=\"_blank\">" . $lang->get("footer_facebook") . "</a>\n"; ?>
+<a href="https://www.asuntomessut.fi/" target="_blank">Suomen Asuntomessut</a>
+<a href="https://tutcris.tut.fi/portal/en/front.html" target="_blank"><?php echo $lang->get("footer_tut"); ?></a>
+<a href="https://tutcris.tut.fi/portal/fi/organisations/school-of-architecture(d56a50f8-bb6a-49b6-908b-b6c58ae0ab7d).html" target="_blank"><?php echo $lang->get("footer_archi"); ?></a>
 </div> <!-- column03" -->
 
 </div> <!-- sitemap -->
