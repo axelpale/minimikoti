@@ -8,7 +8,7 @@ For more, see a my [blog post about Minimikoti](https://www.akselipalen.com/2010
 
 ## Installation
 
-Install into a PHP7 environment. No database is needed.
+Install into a PHP7 environment. Use `src/` as root. No database is needed.
 
 ## Licence
 
